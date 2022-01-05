@@ -1,0 +1,39 @@
+#header{
+    width: 100%;
+    background-color: #101010;
+
+    padding: 5px 10px;
+
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 0 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    li{
+        margin-left: 10px;
+        a {
+            display: block;
+            padding: 10px 15px;
+            text-decoration: none;
+            transition: 0.5s ease;
+            &:hover{
+                color: #fff;
+            }
+        }
+    }
+}
