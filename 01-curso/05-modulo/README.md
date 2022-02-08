@@ -1,0 +1,1 @@
+# Modos de Pré Renderização do Next JS
